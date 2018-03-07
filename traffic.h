@@ -31,22 +31,25 @@ using namespace std;
 #define STATUS_ERROR 3
 #define STATUS_OD_SAME 4
 #define STATUS_NO34 5
-
+#define STATUS_FULL 6
 
 #define LINE1 3
 #define LINE2 4
 
 //DEBUG
+#define DELERROR 1 //是否删除预测路径和实际路径不匹配
 #define DEBUGPATH 0 //是否输出任意两站最短路径
 #define DEBUGVIA 0 //是否输出passenger
 #define DEVIA 4 //输出第n条passenger信息
 #define CALCULATEPATH 1 //计算任意两站最短距离
 #define DEBUGERROR 0 //是否输出错误状态
 #define DEBUGNOOD 0 //是否输出no OD情况
-#define DEBUGSCAN 0 //测试前n组trip_id 0为正常运行
-#define DEBUGCUT 10 //输出前n组numintrip
+#define DEBUGSCAN 903 //测试前n组trip_id 0为正常运行
+#define DEBUGCUT 0 //输出前n组numintrip
 #define DEBUGFINDTRANS 0
 #define DEBUGSTOP 0 //在第n次num_t停止
+
+
 
 
 class station_data {
@@ -67,6 +70,8 @@ public:
 	friend int if_34_station(int k,int i);
 	friend int fun_find_trans(int trip, int s34, int sn34, int t34, int tn34);//找换乘
 	friend int test_find_trans(int num);
+	friend int del_error_trip(int trip, int start_num);
+	friend int right_trip(int trip, int start_num);
 	bool if_trans(int station);
 };
 
@@ -96,7 +101,8 @@ public:
 	friend int if_34_station(int k,int i);
 	friend int fun_find_trans(int trip, int s34, int sn34, int t34, int tn34);//找换乘
 	friend int test_find_trans(int num);
-
+	friend int del_error_trip(int trip, int start_num);
+	friend int right_trip(int trip, int start_num);
 };
 
 //class path_stor{
@@ -162,3 +168,5 @@ void test_print_scan(int trip_max);
 void init_array();
 int test_find_trans(int num);
 bool if_trans(int station);
+int del_error_trip(int trip, int start_num);
+int right_trip(int trip, int start_num);

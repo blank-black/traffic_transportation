@@ -1,0 +1,3 @@
+/Users/zby/CLionProjects/traffic_transportain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zby/CLionProjects/traffic_transportain/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zby/CLionProjects/traffic_transportain/cmake-build-debug/CMakeFiles/traffic_transportain.dir

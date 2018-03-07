@@ -366,8 +366,13 @@ void scan(int cut)
 
 		if(head&&tail)
 		{
-			cout<<"tripnum:" << num_t+1<<" complete "<<endl;
+			if(DEBUGSCAN)
+				cout<<"tripnum:" << num_t+1<<" complete "<<endl;
 			fun_complete(num_t,head,tail);
+			if(DELERROR&&status_trip[num_t]!=4&&del_error_trip(num_t,num_via))
+				continue;
+			if(right_trip(num_t,num_via)&&status_trip[num_t]!=4)
+				status_trip[num_t]=STATUS_FULL;
 		}
 		else
 		{
@@ -469,9 +474,11 @@ void scan(int cut)
 					cout<<"find tail is "<<sta[tail].name<<endl;
 
 			}
-
 			fun_complete(num_t,head,tail,STATUS_FIND_TRANS);
-
+			if(DELERROR&&status_trip[num_t]!=4&&del_error_trip(num_t,num_via))
+				continue;
+			if(right_trip(num_t,num_via)&&status_trip[num_t]!=4)
+				status_trip[num_t]=STATUS_FULL;
 		}
 	}//end of for
 	if(DEBUGSCAN)
@@ -533,6 +540,8 @@ int fun_complete(int trip, int head, int tail, int status)//完整
 void fun_del(int trip, int status) //各种错误返回
 {
 	status_trip[trip]=status;
+//	for(int i=0;i<VIA_TRIP_MAX&&trip_path[trip][i]!=-1;i++)
+//		trip_path[trip][i]=-1;
 	if(DEBUGERROR&&status)
 		cout<<trip<<"  error:"<<status<<endl;
 	if(DEBUGNOOD&&!status)
@@ -641,8 +650,51 @@ bool station_data::if_trans(int station)
 	return 0;
 }
 
+int del_error_trip(int trip, int start_num)
+{
+	for(int i=start_num;i<start_num+numintrip[trip];i++)
+	{
+		int find=0;
+		if(!via[i].pos||!if_34_station(i,0))
+			continue;
+		for(int j=0;j<VIA_TRIP_MAX&&trip_path[trip][j]!=-1;j++)
+		{
+			if(via[i].station==trip_path[trip][j])
+			{
+				find=1;
+				break;
+			}
+		}
+		if(!find)
+		{
+			status_trip[trip] = STATUS_ERROR;
+			cout<<"error:"<<trip<<endl;
+			return 1;
+		}
+	}
+	return 0;
+}
 
-
+int right_trip(int trip, int start_num)
+{
+	for(int j=0;j<VIA_TRIP_MAX&&trip_path[trip][j]!=-1;j++)
+	{
+		int find=0;
+		for(int i=start_num;i<start_num+numintrip[trip];i++)
+		{
+			if(!via[i].pos||!if_34_station(i,0))
+				continue;
+			if(via[i].station==trip_path[trip][j])
+			{
+				find=1;
+				break;
+			}
+		}
+		if(!find)
+			return 0;
+	}
+	return 1;
+}
 
 
 

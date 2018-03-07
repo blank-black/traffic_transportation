@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zby/CLionProjects/traffic_transportain/data_analysis.cpp
+traffic.h
+/Users/zby/CLionProjects/traffic_transportain/traffic.h
+
+/Users/zby/CLionProjects/traffic_transportain/data_read.cpp
+traffic.h
+/Users/zby/CLionProjects/traffic_transportain/traffic.h
+
+/Users/zby/CLionProjects/traffic_transportain/debug.cpp
+traffic.h
+/Users/zby/CLionProjects/traffic_transportain/traffic.h
+
+/Users/zby/CLionProjects/traffic_transportain/initialize.cpp
+traffic.h
+/Users/zby/CLionProjects/traffic_transportain/traffic.h
+
+/Users/zby/CLionProjects/traffic_transportain/main.cpp
+traffic.h
+/Users/zby/CLionProjects/traffic_transportain/traffic.h
+
+/Users/zby/CLionProjects/traffic_transportain/traffic.h
+iostream
+-
+fstream
+-
+stdio.h
+-
+

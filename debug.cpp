@@ -22,23 +22,47 @@ void test_print_scan(int trip_max)
 {
 	ofstream out;
 	out.open(scan_result, ios::out);
+	int status_nood=0,status_right=0,status_shortod=0,status_error=0,status_sameod=0,status_no34=0,status_full=0;
 	for(int i=0;i<trip_max;i++)
 	{
 		out<<"trip id: "<<i+1<<endl;
 		out<<"trip status: ";
 		if(status_trip[i]==0)
+		{
 			out<<"缺少OD"<<endl;
+			status_nood++;
+		}
 		if(status_trip[i]==1)
+		{
 			out<<"正常补全"<<endl;
+			status_right++;
+		}
 		if(status_trip[i]==2)
+		{
 			out<<"用缩短OD方法找换乘并补全"<<endl;
+			status_shortod++;
+		}
 		if(status_trip[i]==3)
+		{
 			out<<"错误"<<endl;
+			status_error++;
+		}
 		if(status_trip[i]==4)
+		{
 			out<<"OD相同"<<endl;
+			status_sameod++;
+		}
 		if(status_trip[i]==5)
+		{
 			out<<"未出现与34有关信息"<<endl;
-		if(status_trip[i]==1||status_trip[i]==2)
+			status_no34++;
+		}
+		if(status_trip[i]==6)
+		{
+			out<<"数据完整"<<endl;
+			status_full++;
+		}
+		if(status_trip[i]==1||status_trip[i]==2||status_trip[i]==6)
 		{
 			out<<"trip path: ";
 			for(int j=0;j<VIA_TRIP_MAX;j++)
@@ -48,6 +72,14 @@ void test_print_scan(int trip_max)
 		}
 		out<<endl;
 	}
+	cout<<"缺少OD:"<<status_nood<<endl;
+	cout<<"正常补全:"<<status_right<<endl;
+	cout<<"用缩短OD方法找换乘并补全:"<<status_shortod<<endl;
+	cout<<"错误:"<<status_error<<endl;
+	cout<<"OD相同:"<<status_sameod<<endl;
+	cout<<"未出现与34有关信息:"<<status_no34<<endl;
+	cout<<"数据完整:"<<status_full<<endl;
+	cout<<"总计:"<<status_nood+status_right+status_shortod+status_error+status_sameod+status_no34+status_full<<endl;
 //	out.close();
 }
 
