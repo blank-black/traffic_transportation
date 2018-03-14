@@ -72,7 +72,8 @@ void test_print_scan(int trip_max)
 		}
 		out<<endl;
 	}
-	cout<<"缺少OD:"<<status_nood<<endl;
+	if(DELNOOD)
+		cout<<"缺少OD:"<<status_nood<<endl;
 	cout<<"正常补全:"<<status_right<<endl;
 	cout<<"用缩短OD方法找换乘并补全:"<<status_shortod<<endl;
 	cout<<"错误:"<<status_error<<endl;
@@ -152,4 +153,214 @@ int test_find_trans(int num)
 	}
 
 	cout<<head<<" "<<tail<<endl;
+}
+
+
+void interaction()
+{
+	cout<<"Paths have completed!"<<endl;
+	while(1)
+	{
+		cout << "Press 1 to calculate section traffic" << endl;
+		cout << "Press 2 to calculate transfer amount " << endl;
+		cout << "Press 3 to calculate path split ratio" << endl;
+		cout << "Press 4 to quit" << endl;
+		int a;
+		cin>>a;
+		if (a == 1)
+		{
+			char a_char[STATION_NAME_MAX],b_char[STATION_NAME_MAX];
+			int a_int,b_int;
+			cout<<"Enter two adjacent stations name in number: (like 66 15)"<<endl;
+			cin>>a_int>>b_int;
+//			cout<<a_char<<b_char;
+			int j,section_traffic=0;
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(a_char, sta[j].name))
+//					a_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(b_char, sta[j].name))
+//					b_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+			for(int i=0;i<TRIP_MAX;i++)
+				for(int k=0;k<VIA_TRIP_MAX;k++)
+				{
+					if(trip_path[i][k]==-1)
+						break;
+					if(trip_path[i][k]==a_int&&trip_path[i][k+1]==b_int)
+						section_traffic++;
+				}
+			cout<<"section traffic = "<<section_traffic<<endl;
+		}
+		else if (a == 2)
+		{
+			char a_char[STATION_NAME_MAX],b_char[STATION_NAME_MAX],c_char[STATION_NAME_MAX];
+			int a_int,b_int,c_int;
+			cout<<"Enter three stations name in number: (like 62 35 36)"<<endl;
+			cin>>a_int>>b_int>>c_int;
+			int j,transfer_amount=0;
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(a_char, sta[j].name))
+//					a_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(b_char, sta[j].name))
+//					b_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(c_char, sta[j].name))
+//					c_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+			for(int i=0;i<TRIP_MAX;i++)
+				for(int k=0;k<VIA_TRIP_MAX;k++)
+				{
+					if(trip_path[i][k]==-1)
+						break;
+					if(trip_path[i][k]==a_int&&trip_path[i][k+1]==b_int&&trip_path[i][k+2]==c_int)
+						transfer_amount++;
+				}
+			cout<<"transfer amount = "<<transfer_amount<<endl;
+
+		}
+		else if (a == 3)
+		{
+			char a_char[STATION_NAME_MAX],b_char[STATION_NAME_MAX];
+			int a_int,b_int;
+			cout<<"Enter two stations name in number: (like 4 15)"<<endl;
+			cin>>a_int>>b_int;
+			int j=0;
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(a_char, sta[j].name))
+//					a_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+//			for (j = 1; j < STATION_NUM; j++)//转换站名为站号
+//				if (!strcmp(b_char, sta[j].name))
+//					b_int = sta[j].number;
+//			if(j==STATION_NUM)
+//			{
+//				cout<<"Wrong name!"<<endl;
+//				continue;
+//			}
+			int split[SPLITMAX][VIA_TRIP_MAX];
+			int split_num[SPLITMAX]={0};
+			int s_num[SPLITMAX][SPLITMAX];
+			for(int i=0;i<SPLITMAX;i++)
+				for(int k=0;k<VIA_TRIP_MAX;k++)
+					split[i][k]=0;
+
+			int ok=0;
+			for(int i=0;i<TRIP_MAX;i++)
+				for(int k=0;k<VIA_TRIP_MAX;k++)
+				{
+					if(trip_path[i][k]==-1)
+						break;
+					if(trip_path[i][k]==a_int)
+					{
+						for(int kk=k;kk<VIA_TRIP_MAX;kk++)
+						{
+							if(trip_path[i][kk]==-1)
+								break;
+							if(trip_path[i][kk]==b_int)
+							{
+								split_fun(i,split,split_num,k,kk,s_num);
+								ok=1;
+								break;
+							}
+						}
+						if(ok)
+							break;
+					}
+				}
+			int total=0;
+			int i;
+			for(i=0;i<SPLITMAX;i++)
+			{
+				if(!split_num[i])
+					break;
+				total+=split_num[i];
+			}
+			cout<<"Total amount:"<<total<<endl;
+			for(int k=0;k<i;k++)
+			{
+				cout<<"The "<<k+1<<" path is :"<<endl;
+				for(int kk=0;kk<VIA_TRIP_MAX;kk++)
+				{
+					if(!split[k][kk])
+						break;
+					cout<<sta[split[k][kk]].name<<" ";
+				}
+				cout<<endl<<"amount:"<<split_num[k]<<"  ratio:"<<(split_num[k]*100.0/total)<<"%"<<endl<<endl;
+//				for(int kk=0;kk<split_num[k];kk++)
+//					cout<<s_num[k][kk]<<" "<<endl;
+			}
+
+		}
+		else if (a == 4)
+			break;
+		else
+			cout << "Only press 1,2,3,4!!!"<<endl;
+	}
+}
+
+void split_fun(int trip, int split[][VIA_TRIP_MAX], int split_num[], int h_num, int t_num, int s_num[][SPLITMAX])
+{
+	int i;
+	for(i=0;i<SPLITMAX;i++)
+	{
+		if(!split_num[i])
+			break;
+		int ok=0;
+		for(int j=0;j<VIA_TRIP_MAX;j++)
+		{
+			if(!split[i][j])
+			{
+				ok=1;
+				break;
+			}
+			if(trip_path[trip][h_num+j]!=split[i][j])
+				break;
+		}
+		if(ok)
+		{
+			split_num[i]++;
+			s_num[i][split_num[i]-1]=trip;
+			return void();
+		}
+	}
+	for(int j=0;j<VIA_TRIP_MAX;j++)
+	{
+		if(trip_path[trip][h_num+j]==trip_path[trip][t_num])
+		{
+			split[i][j]=trip_path[trip][h_num+j];
+			split_num[i]++;
+			s_num[i][0]=trip;
+			break;
+		}
+		split[i][j]=trip_path[trip][h_num+j];
+	}
 }

@@ -9,20 +9,20 @@
 
 using namespace std;
 
-#define STATION_NAME_MAX 20
+#define STATION_NAME_MAX 30
 #define STATION_LINE_MAX 4
 #define STATION_ADJACENT_NUM 8
-#define STATION_NUM 304
+#define STATION_NUM 305
 #define TIME_LENGTH 17
 #define MAC_LENGTH 30
 #define VIA_MAX 28452
 #define PATHS_MAX 1000
 #define POSITION 6
 #define MAX_INT 100000 //当做初始无穷大
-#define VIA_TRIP_MAX 200
+#define VIA_TRIP_MAX 500
 #define TRIP_MAX 1400
 #define STATION_NUM_34 60
-
+#define SPLITMAX 50
 
 
 #define STATUS_NO_OD 0
@@ -37,18 +37,18 @@ using namespace std;
 #define LINE2 4
 
 //DEBUG
-#define DELERROR 1 //是否删除预测路径和实际路径不匹配
+#define DELERROR 0 //是否删除预测路径和实际路径不匹配
 #define DEBUGPATH 0 //是否输出任意两站最短路径
 #define DEBUGVIA 0 //是否输出passenger
 #define DEVIA 4 //输出第n条passenger信息
 #define CALCULATEPATH 1 //计算任意两站最短距离
 #define DEBUGERROR 0 //是否输出错误状态
 #define DEBUGNOOD 0 //是否输出no OD情况
-#define DEBUGSCAN 903 //测试前n组trip_id 0为正常运行
+#define DEBUGSCAN 900 //测试前n组trip_id 0为正常运行
 #define DEBUGCUT 0 //输出前n组numintrip
 #define DEBUGFINDTRANS 0
 #define DEBUGSTOP 0 //在第n次num_t停止
-
+#define DELNOOD 0 //删除缺少OD
 
 
 
@@ -73,6 +73,10 @@ public:
 	friend int del_error_trip(int trip, int start_num);
 	friend int right_trip(int trip, int start_num);
 	bool if_trans(int station);
+	friend int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num);
+	friend void scan_n(int cut);
+
+
 };
 
 class via_data{
@@ -103,6 +107,10 @@ public:
 	friend int test_find_trans(int num);
 	friend int del_error_trip(int trip, int start_num);
 	friend int right_trip(int trip, int start_num);
+	friend int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num);
+	friend void scan_n(int cut);
+
+
 };
 
 //class path_stor{
@@ -140,7 +148,7 @@ static char scan_result[]="/data/jk_data/scan_result";
 extern AdjType a[STATION_NUM][STATION_NUM];
 extern via_data via[VIA_MAX];
 //extern path_stor pa[PATHS_MAX];
-extern station_data sta[STATION_NUM+1];
+extern station_data sta[STATION_NUM];
 extern int path[STATION_NUM][STATION_NUM];//v到各顶点的最短路径向量
 extern int D[STATION_NUM][STATION_NUM];//v到各顶点最短路径长度向量
 extern ifstream subway_data_in;
@@ -151,6 +159,8 @@ extern int numintrip[TRIP_MAX];
 extern int status_trip[TRIP_MAX];
 extern int trip_path[TRIP_MAX][VIA_TRIP_MAX];
 extern int station34[STATION_NUM_34];
+extern int trip_path_true[TRIP_MAX][VIA_TRIP_MAX];
+
 
 void Floyd(MGraph * G,int path[][STATION_NUM],int D[][STATION_NUM],int n);
 void test_print_all_path(int path[][STATION_NUM],int D[][STATION_NUM]);//全部可能路径输出测试
@@ -170,3 +180,10 @@ int test_find_trans(int num);
 bool if_trans(int station);
 int del_error_trip(int trip, int start_num);
 int right_trip(int trip, int start_num);
+int if_in_path(int trip, int sta_via, int j);
+int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num);
+void clear_path(int trip ,int j);
+int short_line(int trip, int head, int tail, int j);
+void scan_n(int cut);
+void split_fun(int trip, int split[][VIA_TRIP_MAX], int split_num[], int h_num, int t_num, int s_num[][SPLITMAX]);
+void interaction();

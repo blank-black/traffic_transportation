@@ -66,7 +66,7 @@ void scan(int cut)
 	int trip_max=cut;
 	if(DEBUGSCAN)
 		trip_max=DEBUGSCAN;
-	for (int num_t = 0; num_t < trip_max;num_via+=numintrip[num_t],num_t++)
+	for (int num_t = 0; num_t < trip_max;num_via+=numintrip[num_t],num_t++)//第0遍 头->尾 是否存在34号线信息
 	{
 		if(DEBUGSTOP&&num_t==DEBUGSTOP)
 			getchar();
@@ -86,48 +86,50 @@ void scan(int cut)
 		}
 		if(ok)
 			continue;
-
-		for (i = num_via; i < num_via + numintrip[num_t]; i++)//第一遍 头->尾
+		if(DELNOOD)
 		{
-			if (via[i].pos)
+			for (i = num_via; i < num_via + numintrip[num_t]; i++)//第一遍 头->尾
 			{
-				if(DEBUGSCAN)
-					cout<<"tripnum:" << num_t+1<<" scan1:"<<i+1<<" pass!"<<endl;
-				break;
+				if (via[i].pos)
+				{
+					if (DEBUGSCAN)
+						cout << "tripnum:" << num_t + 1 << " scan1:" << i + 1 << " pass!" << endl;
+					break;
+				}
+				if (via[i].line == LINE1 || via[i].line == LINE2)
+				{
+					fun_del(num_t);//34 no OD
+					ok = 1;
+					if (DEBUGSCAN)
+						cout << "tripnum:" << num_t + 1 << " scan1:" << i + 1 << " 34noOD!" << endl;
+					break;
+				}
 			}
-			if (via[i].line == LINE1 || via[i].line == LINE2)
-			{
-				fun_del(num_t);//34 no OD
-				ok=1;
-				if(DEBUGSCAN)
-					cout<<"tripnum:" << num_t+1<<" scan1:"<<i+1<<" 34noOD!"<<endl;
-				break;
-			}
-		}
-		if(ok)
-			continue;
+			if (ok)
+				continue;
 
-		for (int i = num_via + numintrip[num_t]-1; i >= num_via; i--)//第二遍 尾->头
-		{
-			if (via[i].pos)
+			for (int i = num_via + numintrip[num_t] - 1; i >= num_via; i--)//第二遍 尾->头
 			{
-				if(DEBUGSCAN)
-					cout<<"tripnum:" << num_t+1<<" scan2:"<<i+1<<" pass!"<<endl;
-				break;
+				if (via[i].pos)
+				{
+					if (DEBUGSCAN)
+						cout << "tripnum:" << num_t + 1 << " scan2:" << i + 1 << " pass!" << endl;
+					break;
+				}
+				if (via[i].line == LINE1 || via[i].line == LINE2)
+				{
+					fun_del(num_t);//34 no OD
+					ok = 1;
+					if (DEBUGSCAN)
+						cout << "tripnum:" << num_t + 1 << " scan2:" << i + 1 << " 34noOD!" << endl;
+					break;
+				}
 			}
-			if (via[i].line == LINE1 || via[i].line == LINE2)
-			{
-				fun_del(num_t);//34 no OD
-				ok=1;
-				if(DEBUGSCAN)
-					cout<<"tripnum:" << num_t+1<<" scan2:"<<i+1<<" 34noOD!"<<endl;
-				break;
-			}
+			if (ok)
+				continue;
 		}
-		if(ok)
-			continue;
-
 		int head=0,tail=0;
+		int head_num,tail_num;
 		int temphead=0;
 		for(int i = num_via; i < num_via + numintrip[num_t]; i++)//第三遍 头->尾
 		{
@@ -139,6 +141,7 @@ void scan(int cut)
 					    sta[via[i].station].line_num[ii] == LINE2) && !temphead)
 					{
 						head = via[i].station;//第一站是34(简化模型 不考虑在34站经过没走34站的情况)
+						head_num=i;
 						if (DEBUGSCAN)
 							cout << "head sta is" << sta[via[i].station].name << " on 34" << endl;
 						break;
@@ -149,6 +152,7 @@ void scan(int cut)
 						if (sta[via[i].station].if_trans(temphead))
 						{
 							head = via[i].station;
+							head_num=i;
 							break;
 						}
 						else
@@ -261,6 +265,7 @@ void scan(int cut)
 						if (DEBUGSCAN)
 							cout << "tail sta is" << sta[via[i].station].name << " on 34" << endl;
 						tail = via[i].station;//第一站是34(简化模型 不考虑在34站经过没走34站的情况)
+						tail_num=i;
 						break;
 					}
 					else if (sta[via[i].station].line_num[ii] == LINE1 ||
@@ -269,6 +274,7 @@ void scan(int cut)
 						if(sta[via[i].station].if_trans(temptail))
 						{
 							tail=via[i].station;
+							tail_num=i;
 							break;
 						}
 						else
@@ -368,7 +374,8 @@ void scan(int cut)
 		{
 			if(DEBUGSCAN)
 				cout<<"tripnum:" << num_t+1<<" complete "<<endl;
-			fun_complete(num_t,head,tail);
+			if(fun_complete(num_t,head,tail))
+				trip_adjust(num_t,num_via,tail,head_num,tail_num);
 			if(DELERROR&&status_trip[num_t]!=4&&del_error_trip(num_t,num_via))
 				continue;
 			if(right_trip(num_t,num_via)&&status_trip[num_t]!=4)
@@ -397,7 +404,7 @@ void scan(int cut)
 				}
 				if(i>=num_via + numintrip[num_t])
 				{
-					fun_del(num_t);
+					fun_del(num_t,3);
 					continue;
 				}///error
 
@@ -417,6 +424,7 @@ void scan(int cut)
 					cout<<"find trans head"<<endl<<num_t<<" "<<s34h<<" "<<sn34h<<" "<<t34h<<" "<<tn34h<<endl;
 
 				head=fun_find_trans(num_t,s34h,sn34h,t34h,tn34h);
+				head_num=s34h;
 				if(head==-1)
 				{
 					fun_del(num_t,3);
@@ -444,7 +452,7 @@ void scan(int cut)
 				}
 				if(i<num_via)
 				{
-					fun_del(num_t);
+					fun_del(num_t,3);
 					continue;
 				}///error
 
@@ -464,6 +472,7 @@ void scan(int cut)
 					cout<<"find trans tail"<<endl<<num_t<<" "<<s34t<<" "<<sn34t<<" "<<t34t<<" "<<tn34t<<endl;
 
 				tail=fun_find_trans(num_t,s34t,sn34t,t34t,tn34t);
+				tail_num=t34h;
 				if(tail==-1)
 				{
 					fun_del(num_t,3);
@@ -474,7 +483,8 @@ void scan(int cut)
 					cout<<"find tail is "<<sta[tail].name<<endl;
 
 			}
-			fun_complete(num_t,head,tail,STATUS_FIND_TRANS);
+			if(fun_complete(num_t,head,tail,STATUS_FIND_TRANS))
+				trip_adjust(num_t,num_via,tail,head_num,tail_num);
 			if(DELERROR&&status_trip[num_t]!=4&&del_error_trip(num_t,num_via))
 				continue;
 			if(right_trip(num_t,num_via)&&status_trip[num_t]!=4)
@@ -487,6 +497,44 @@ void scan(int cut)
 		test_print_scan(trip_max);
 }
 
+void scan_n(int cut)
+{
+	int num_via = 0;//从0计数 每次加上numintrip的值 via[num_via]即为数据
+	int trip_max = cut;
+	if (DEBUGSCAN)
+		trip_max = DEBUGSCAN;
+	for (int num_t = 0; num_t < trip_max; num_via += numintrip[num_t], num_t++)
+	{
+		if (DEBUGSTOP && num_t == DEBUGSTOP)
+			getchar();
+		int i;
+		int num=0;
+		int j;
+		for(i = num_via; i < num_via + numintrip[num_t];)
+		{
+			if(via[i].pos)
+			{
+				for(j=i;j<num_via + numintrip[num_t];j++)
+					if(via[j].pos&&via[j].station!=via[i].station)
+					{
+						num=short_line(num_t,via[i].station,via[j].station,num);
+						i=j;
+						break;
+					}
+				if(j==num_via + numintrip[num_t])
+					break;
+			}
+			else
+				i++;
+		}
+		status_trip[num_t]=STATUS_COMPLETE;
+		cout<<num_t<<endl;
+	}
+	if (DEBUGSCAN)
+		test_print_scan(DEBUGSCAN);
+	else
+		test_print_scan(trip_max);
+}
 
 
 
@@ -510,8 +558,9 @@ int fun_complete(int trip, int head, int tail, int status)//完整
 {
 	if(head==tail)
 	{
-		status_trip[trip]=STATUS_OD_SAME;
-		return STATUS_OD_SAME;
+		status_trip[trip]=status;
+		trip_path[trip][0]=head;
+		return status;
 	}
 	status_trip[trip]=status;
 	int temp=head,i=1;
@@ -542,8 +591,8 @@ void fun_del(int trip, int status) //各种错误返回
 	status_trip[trip]=status;
 //	for(int i=0;i<VIA_TRIP_MAX&&trip_path[trip][i]!=-1;i++)
 //		trip_path[trip][i]=-1;
-	if(DEBUGERROR&&status)
-		cout<<trip<<"  error:"<<status<<endl;
+//	if(DEBUGERROR&&status)
+//		cout<<trip<<"  error:"<<status<<endl;
 	if(DEBUGNOOD&&!status)
 		cout<<trip<<"  no OD"<<endl;
 }
@@ -696,12 +745,70 @@ int right_trip(int trip, int start_num)
 	return 1;
 }
 
+int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num)
+{
+	int j=0;
+	for(int i=head_num;i<tail_num;i++)
+	{
+		if(via[i].pos&&i&&via[i].station!=via[i-1].station)
+		{
+			if(via[i].station==tail)
+				break;
+			if(if_in_path(trip,via[i].station,j))
+				j=if_in_path(trip,via[i].station,j)-1;
+			else
+			{
+				cout<<trip<<"adjust"<<endl;
+				clear_path(trip,j);
+				j=short_line(trip,trip_path[trip][j],via[i].station,j);
+				short_line(trip,via[i].station,tail,j);
+			}
+		}
+	}
+}
 
+int if_in_path(int trip, int sta_via, int j)
+{
+	for(int i=1;i<VIA_TRIP_MAX-j+1;i++)
+		if(sta_via==trip_path[trip][j+i-1])
+			return i;
+	return 0;
+}
 
+void clear_path(int trip ,int j)
+{
+	for(j++;j<VIA_TRIP_MAX;j++)
+	{
+		if(trip_path[trip][j]==-1)
+			break;
+		trip_path[trip][j]=-1;
+	}
+}
 
-
-
-
+int short_line(int trip, int head, int tail, int j)
+{
+	int temp=head,i=j+1;
+	trip_path[trip][j]=head;
+	if(head==tail)
+		return j;
+	while(1)
+	{
+		temp=sta[temp].find_next_sta(tail);
+		if(temp==tail)
+			break;
+		trip_path[trip][i]=temp;
+		i++;
+		if(i>=VIA_TRIP_MAX)
+			break;
+	}
+	if(temp!=tail)
+	{
+		fun_del(trip,STATUS_ERROR);
+		return -1;
+	}
+	trip_path[trip][i]=tail;
+	return i;
+}
 
 
 

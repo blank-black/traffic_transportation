@@ -1,0 +1,3230 @@
+trip id: 1
+trip status: 正常补全
+trip path: 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 上海火车站 
+
+trip id: 2
+trip status: OD相同
+
+trip id: 3
+trip status: OD相同
+
+trip id: 4
+trip status: 未出现与34有关信息
+
+trip id: 5
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 6
+trip status: 缺少OD
+
+trip id: 7
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 
+
+trip id: 8
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 江苏路 静安寺 南京西路 人民广场 大世界 老西门 陆家浜路 马当路 打浦桥 嘉善路 世纪大道 
+
+trip id: 9
+trip status: 未出现与34有关信息
+
+trip id: 10
+trip status: OD相同
+
+trip id: 11
+trip status: 正常补全
+trip path: 延安西路 虹桥路 宜山路 
+
+trip id: 12
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 13
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 江苏路 中山公园 娄山关路 威宁路 北新泾 淞虹路 虹桥2号航站楼 淞虹路 北新泾 威宁路 娄山关路 中山公园 金沙江路 曹杨路 枫桥路 真如 上海西站 李子园 祁连山路 武威路 桃浦新村 南翔 马陆 嘉定新城 白银路 嘉定西 白银路 嘉定新城 马陆 南翔 桃浦新村 武威路 祁连山路 李子园 上海西站 真如 枫桥路 曹杨路 隆德路 江苏路 静安寺 常熟路 陕西南路 南京西路 陕西南路 常熟路 衡山路 徐家汇 上海体育馆 
+
+trip id: 14
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 15
+trip status: 缺少OD
+
+trip id: 16
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 17
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 虹桥路 延安西路 中山公园 江苏路 静安寺 南京西路 淮海中路 南浦大桥 西藏南路 
+
+trip id: 18
+trip status: 缺少OD
+
+trip id: 19
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 
+
+trip id: 20
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 21
+trip status: OD相同
+
+trip id: 22
+trip status: OD相同
+
+trip id: 23
+trip status: OD相同
+
+trip id: 24
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 25
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 26
+trip status: OD相同
+
+trip id: 27
+trip status: OD相同
+
+trip id: 28
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 29
+trip status: 未出现与34有关信息
+
+trip id: 30
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 
+
+trip id: 31
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 
+
+trip id: 32
+trip status: OD相同
+
+trip id: 33
+trip status: 未出现与34有关信息
+
+trip id: 34
+trip status: 缺少OD
+
+trip id: 35
+trip status: 缺少OD
+
+trip id: 36
+trip status: 缺少OD
+
+trip id: 37
+trip status: 缺少OD
+
+trip id: 38
+trip status: 缺少OD
+
+trip id: 39
+trip status: 缺少OD
+
+trip id: 40
+trip status: 缺少OD
+
+trip id: 41
+trip status: 缺少OD
+
+trip id: 42
+trip status: 缺少OD
+
+trip id: 43
+trip status: 缺少OD
+
+trip id: 44
+trip status: OD相同
+
+trip id: 45
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 46
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 47
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 48
+trip status: 数据完整
+trip path: 虹桥路 延安西路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 上海体育场 东安路 大木桥路 鲁班路 西藏南路 南浦大桥 塘桥 延安西路 
+
+trip id: 49
+trip status: 错误
+
+trip id: 50
+trip status: 错误
+
+trip id: 51
+trip status: OD相同
+
+trip id: 52
+trip status: OD相同
+
+trip id: 53
+trip status: OD相同
+
+trip id: 54
+trip status: 未出现与34有关信息
+
+trip id: 55
+trip status: OD相同
+
+trip id: 56
+trip status: OD相同
+
+trip id: 57
+trip status: OD相同
+
+trip id: 58
+trip status: OD相同
+
+trip id: 59
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 嘉善路 世纪大道 
+
+trip id: 60
+trip status: 正常补全
+trip path: 鲁班路 大木桥路 东安路 肇嘉浜路 常熟路 静安寺 江苏路 中山公园 
+
+trip id: 61
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 
+
+trip id: 62
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 63
+trip status: 正常补全
+trip path: 上海火车站 宝山路 海伦路 
+
+trip id: 64
+trip status: OD相同
+
+trip id: 65
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 海伦路 
+
+trip id: 66
+trip status: 缺少OD
+
+trip id: 67
+trip status: 数据完整
+trip path: 中山公园 金沙江路 曹杨路 金沙江路 
+
+trip id: 68
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 
+
+trip id: 69
+trip status: 缺少OD
+
+trip id: 70
+trip status: OD相同
+
+trip id: 71
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 72
+trip status: OD相同
+
+trip id: 73
+trip status: 正常补全
+trip path: 曹杨路 隆德路 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 74
+trip status: OD相同
+
+trip id: 75
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 76
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 77
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 上海体育场 东安路 大木桥路 鲁班路 西藏南路 南浦大桥 塘桥 蓝村路 
+
+trip id: 78
+trip status: 正常补全
+trip path: 镇坪路 长寿路 昌平路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 79
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 
+
+trip id: 80
+trip status: 缺少OD
+
+trip id: 81
+trip status: OD相同
+
+trip id: 82
+trip status: OD相同
+
+trip id: 83
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 陕西南路 嘉善路 大木桥路 龙华中路 龙华 龙漕路 石龙路 上海南站 漕宝路 龙漕路 
+
+trip id: 84
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 交通大学 上海图书馆 陕西南路 南京西路 汉中路 上海火车站 漕溪路 
+
+trip id: 85
+trip status: 数据完整
+trip path: 宜山路 虹桥路 延安西路 虹桥路 
+
+trip id: 86
+trip status: OD相同
+
+trip id: 87
+trip status: 正常补全
+trip path: 西藏南路 鲁班路 大木桥路 东安路 肇嘉浜路 常熟路 静安寺 江苏路 隆德路 曹杨路 
+
+trip id: 88
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 
+
+trip id: 89
+trip status: 缺少OD
+
+trip id: 90
+trip status: OD相同
+
+trip id: 91
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 
+
+trip id: 92
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 93
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 
+
+trip id: 94
+trip status: 正常补全
+trip path: 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 七宝 
+
+trip id: 95
+trip status: 错误
+
+trip id: 96
+trip status: OD相同
+
+trip id: 97
+trip status: OD相同
+
+trip id: 98
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 上海体育场 东安路 
+
+trip id: 99
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 100
+trip status: OD相同
+
+trip id: 101
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 102
+trip status: 缺少OD
+
+trip id: 103
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 104
+trip status: 缺少OD
+
+trip id: 105
+trip status: OD相同
+
+trip id: 106
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 南京西路 淮海中路 新天地 马当路 打浦桥 嘉善路 世纪大道 
+
+trip id: 107
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 108
+trip status: 正常补全
+trip path: 宜山路 上海体育馆 徐家汇 交通大学 江苏路 静安寺 南京西路 静安寺 江苏路 中山公园 延安西路 虹桥路 
+
+trip id: 109
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 110
+trip status: 未出现与34有关信息
+
+trip id: 111
+trip status: OD相同
+
+trip id: 112
+trip status: OD相同
+
+trip id: 113
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 南京西路 静安寺 江苏路 中山公园 金沙江路 隆德路 武宁路 隆德路 金沙江路 中山公园 娄山关路 威宁路 北新泾 淞虹路 虹桥2号航站楼 虹桥火车站 虹桥2号航站楼 淞虹路 北新泾 威宁路 娄山关路 中山公园 江苏路 静安寺 南京西路 人民广场 南京东路 陆家嘴 东昌路 世纪大道 
+
+trip id: 114
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 
+
+trip id: 115
+trip status: 正常补全
+trip path: 上海火车站 汉中路 自然博物馆 南浦大桥 塘桥 蓝村路 浦电路 世纪大道 
+
+trip id: 116
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 117
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 
+
+trip id: 118
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 陕西南路 嘉善路 世纪大道 
+
+trip id: 119
+trip status: 数据完整
+trip path: 金沙江路 中山公园 
+
+trip id: 120
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 
+
+trip id: 121
+trip status: 未出现与34有关信息
+
+trip id: 122
+trip status: OD相同
+
+trip id: 123
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 南京西路 人民广场 新闸路 汉中路 上海火车站 
+
+trip id: 124
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 125
+trip status: 正常补全
+trip path: 虹桥路 宜山路 徐家汇 肇嘉浜路 嘉善路 世纪大道 
+
+trip id: 126
+trip status: OD相同
+
+trip id: 127
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 128
+trip status: 正常补全
+trip path: 上海火车站 宝山路 海伦路 
+
+trip id: 129
+trip status: OD相同
+
+trip id: 130
+trip status: OD相同
+
+trip id: 131
+trip status: 缺少OD
+
+trip id: 132
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 徐家汇 衡山路 常熟路 静安寺 昌平路 长寿路 镇坪路 
+
+trip id: 133
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 镇坪路 长寿路 江宁路 汉中路 新闸路 人民广场 新闸路 汉中路 上海火车站 
+
+trip id: 134
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 135
+trip status: OD相同
+
+trip id: 136
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 137
+trip status: OD相同
+
+trip id: 138
+trip status: 正常补全
+trip path: 曹杨路 隆德路 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 139
+trip status: OD相同
+
+trip id: 140
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 141
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 中山公园 江苏路 静安寺 南京西路 淮海中路 南浦大桥 西藏南路 
+
+trip id: 142
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 143
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 南京西路 汉中路 上海火车站 
+
+trip id: 144
+trip status: 缺少OD
+
+trip id: 145
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 
+
+trip id: 146
+trip status: 缺少OD
+
+trip id: 147
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 
+
+trip id: 148
+trip status: 正常补全
+trip path: 镇坪路 长寿路 昌平路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 149
+trip status: 缺少OD
+
+trip id: 150
+trip status: 正常补全
+trip path: 江杨北路 铁力路 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 
+
+trip id: 151
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 延安西路 虹桥路 宜山路 
+
+trip id: 152
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 153
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 154
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 155
+trip status: OD相同
+
+trip id: 156
+trip status: OD相同
+
+trip id: 157
+trip status: 缺少OD
+
+trip id: 158
+trip status: 正常补全
+trip path: 塘桥 蓝村路 浦电路6 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 娄山关路 威宁路 北新泾 淞虹路 虹桥2号航站楼 虹桥火车站 虹桥2号航站楼 淞虹路 北新泾 威宁路 娄山关路 中山公园 
+
+trip id: 159
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 160
+trip status: 缺少OD
+
+trip id: 161
+trip status: 正常补全
+trip path: 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 162
+trip status: 缺少OD
+
+trip id: 163
+trip status: 正常补全
+trip path: 虹桥路 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 164
+trip status: OD相同
+
+trip id: 165
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 166
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 167
+trip status: OD相同
+
+trip id: 168
+trip status: 正常补全
+trip path: 南浦大桥 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 169
+trip status: OD相同
+
+trip id: 170
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 杨树浦路 
+
+trip id: 171
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 徐家汇 衡山路 常熟路 陕西南路 南京西路 汉中路 上海火车站 
+
+trip id: 172
+trip status: 正常补全
+trip path: 赤峰路 虹口足球场 东宝兴路 宝山路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 
+
+trip id: 173
+trip status: OD相同
+
+trip id: 174
+trip status: OD相同
+
+trip id: 175
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 176
+trip status: OD相同
+
+trip id: 177
+trip status: OD相同
+
+trip id: 178
+trip status: 正常补全
+trip path: 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 179
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 虹桥路 
+
+trip id: 180
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 
+
+trip id: 181
+trip status: OD相同
+
+trip id: 182
+trip status: 正常补全
+trip path: 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 183
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 184
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 185
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 186
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 187
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 188
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 杨树浦路 
+
+trip id: 189
+trip status: 正常补全
+trip path: 西藏南路 鲁班路 大木桥路 东安路 肇嘉浜路 常熟路 静安寺 江苏路 中山公园 金沙江路 中山公园 
+
+trip id: 190
+trip status: 正常补全
+trip path: 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 191
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 静安寺 常熟路 肇嘉浜路 东安路 肇嘉浜路 常熟路 静安寺 江苏路 中山公园 
+
+trip id: 192
+trip status: OD相同
+
+trip id: 193
+trip status: 错误
+
+trip id: 194
+trip status: 正常补全
+trip path: 西藏南路 鲁班路 大木桥路 嘉善路 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 隆德路 曹杨路 
+
+trip id: 195
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 嘉善路 世纪大道 浦电路6 蓝村路 
+
+trip id: 196
+trip status: 正常补全
+trip path: 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 197
+trip status: 正常补全
+trip path: 浦东大道 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 
+
+trip id: 198
+trip status: OD相同
+
+trip id: 199
+trip status: 正常补全
+trip path: 东宝兴路 宝山路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 
+
+trip id: 200
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 201
+trip status: OD相同
+
+trip id: 202
+trip status: OD相同
+
+trip id: 203
+trip status: OD相同
+
+trip id: 204
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 上海体育场 东安路 
+
+trip id: 205
+trip status: OD相同
+
+trip id: 206
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 浦电路 世纪大道 
+
+trip id: 207
+trip status: 数据完整
+trip path: 宜山路 虹桥路 
+
+trip id: 208
+trip status: 正常补全
+trip path: 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 209
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 
+
+trip id: 210
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 汉中路 上海火车站 
+
+trip id: 211
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 宜山路 临平路 
+
+trip id: 212
+trip status: 错误
+
+trip id: 213
+trip status: OD相同
+
+trip id: 214
+trip status: OD相同
+
+trip id: 215
+trip status: OD相同
+
+trip id: 216
+trip status: OD相同
+
+trip id: 217
+trip status: OD相同
+
+trip id: 218
+trip status: OD相同
+
+trip id: 219
+trip status: OD相同
+
+trip id: 220
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 陕西南路 嘉善路 世纪大道 
+
+trip id: 221
+trip status: OD相同
+
+trip id: 222
+trip status: OD相同
+
+trip id: 223
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 224
+trip status: 正常补全
+trip path: 大木桥路 东安路 肇嘉浜路 常熟路 静安寺 江苏路 中山公园 金沙江路 
+
+trip id: 225
+trip status: OD相同
+
+trip id: 226
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 227
+trip status: OD相同
+
+trip id: 228
+trip status: 正常补全
+trip path: 宜山路 徐家汇 交通大学 虹桥路 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 长寿路 镇坪路 曹杨路 
+
+trip id: 229
+trip status: 正常补全
+trip path: 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 230
+trip status: 未出现与34有关信息
+
+trip id: 231
+trip status: 正常补全
+trip path: 大连路 杨树浦路 浦东大道 世纪大道 浦电路 
+
+trip id: 232
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 233
+trip status: OD相同
+
+trip id: 234
+trip status: 正常补全
+trip path: 上海南站 漕宝路 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 235
+trip status: OD相同
+
+trip id: 236
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 237
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 238
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 239
+trip status: OD相同
+
+trip id: 240
+trip status: 正常补全
+trip path: 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 241
+trip status: 未出现与34有关信息
+
+trip id: 242
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 243
+trip status: OD相同
+
+trip id: 244
+trip status: 正常补全
+trip path: 中山公园 娄山关路 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 上海科技馆 世纪公园 龙阳路 张江高科 金科路 广兰路 唐镇 广兰路 金科路 张江高科 龙阳路 世纪公园 上海科技馆 世纪大道 
+
+trip id: 245
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 246
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 邮电新村 海伦路 四川北路 天潼路 四川北路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 
+
+trip id: 247
+trip status: 缺少OD
+
+trip id: 248
+trip status: OD相同
+
+trip id: 249
+trip status: 错误
+
+trip id: 250
+trip status: OD相同
+
+trip id: 251
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 
+
+trip id: 252
+trip status: OD相同
+
+trip id: 253
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 254
+trip status: 正常补全
+trip path: 镇坪路 长寿路 昌平路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 255
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 256
+trip status: OD相同
+
+trip id: 257
+trip status: 正常补全
+trip path: 金沙江路 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 258
+trip status: 未出现与34有关信息
+
+trip id: 259
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 
+
+trip id: 260
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 261
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 262
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 
+
+trip id: 263
+trip status: 正常补全
+trip path: 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 
+
+trip id: 264
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 265
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 266
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 267
+trip status: OD相同
+
+trip id: 268
+trip status: 正常补全
+trip path: 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 269
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 270
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 271
+trip status: 数据完整
+trip path: 延安西路 虹桥路 
+
+trip id: 272
+trip status: 数据完整
+trip path: 金沙江路 中山公园 
+
+trip id: 273
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 274
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 275
+trip status: 缺少OD
+
+trip id: 276
+trip status: OD相同
+
+trip id: 277
+trip status: 缺少OD
+
+trip id: 278
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 279
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 280
+trip status: OD相同
+
+trip id: 281
+trip status: 缺少OD
+
+trip id: 282
+trip status: 未出现与34有关信息
+
+trip id: 283
+trip status: OD相同
+
+trip id: 284
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 285
+trip status: OD相同
+
+trip id: 286
+trip status: 缺少OD
+
+trip id: 287
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 288
+trip status: 正常补全
+trip path: 蓝村路 塘桥 南浦大桥 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 
+
+trip id: 289
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 290
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 291
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 
+
+trip id: 292
+trip status: 数据完整
+trip path: 上海火车站 宝山路 东宝兴路 
+
+trip id: 293
+trip status: 正常补全
+trip path: 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 294
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 
+
+trip id: 295
+trip status: 缺少OD
+
+trip id: 296
+trip status: 错误
+
+trip id: 297
+trip status: 正常补全
+trip path: 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 298
+trip status: OD相同
+
+trip id: 299
+trip status: OD相同
+
+trip id: 300
+trip status: OD相同
+
+trip id: 301
+trip status: OD相同
+
+trip id: 302
+trip status: OD相同
+
+trip id: 303
+trip status: OD相同
+
+trip id: 304
+trip status: 数据完整
+trip path: 宜山路 虹桥路 
+
+trip id: 305
+trip status: 正常补全
+trip path: 宜山路 虹桥路 交通大学 上海图书馆 陕西南路 南京西路 汉中路 上海火车站 宝山路 
+
+trip id: 306
+trip status: 缺少OD
+
+trip id: 307
+trip status: 正常补全
+trip path: 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 东宝兴路 虹口足球场 东宝兴路 宝山路 海伦路 临平路 大连路 
+
+trip id: 308
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 
+
+trip id: 309
+trip status: 缺少OD
+
+trip id: 310
+trip status: 正常补全
+trip path: 江杨北路 铁力路 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 
+
+trip id: 311
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 312
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 313
+trip status: OD相同
+
+trip id: 314
+trip status: 正常补全
+trip path: 临平路 海伦路 宝山路 上海火车站 
+
+trip id: 315
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 316
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 317
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 318
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 319
+trip status: 未出现与34有关信息
+
+trip id: 320
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 321
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 322
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 323
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 324
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 静安寺 江苏路 交通大学 虹桥路 宜山路 徐家汇 肇嘉浜路 嘉善路 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 
+
+trip id: 325
+trip status: 数据完整
+trip path: 浦电路 世纪大道 
+
+trip id: 326
+trip status: OD相同
+
+trip id: 327
+trip status: 错误
+
+trip id: 328
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 329
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 330
+trip status: 正常补全
+trip path: 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 331
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 332
+trip status: 缺少OD
+
+trip id: 333
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 334
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 335
+trip status: 数据完整
+trip path: 镇坪路 曹杨路 
+
+trip id: 336
+trip status: 缺少OD
+
+trip id: 337
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 338
+trip status: OD相同
+
+trip id: 339
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 340
+trip status: OD相同
+
+trip id: 341
+trip status: OD相同
+
+trip id: 342
+trip status: 正常补全
+trip path: 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 343
+trip status: 数据完整
+trip path: 宜山路 虹桥路 
+
+trip id: 344
+trip status: 未出现与34有关信息
+
+trip id: 345
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 346
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 347
+trip status: 缺少OD
+
+trip id: 348
+trip status: 数据完整
+trip path: 虹桥路 宜山路 
+
+trip id: 349
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 350
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 351
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 352
+trip status: 正常补全
+trip path: 临平路 海伦路 宝山路 上海火车站 
+
+trip id: 353
+trip status: 正常补全
+trip path: 上海火车站 宝山路 东宝兴路 宝山路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 
+
+trip id: 354
+trip status: 正常补全
+trip path: 宜山路 徐家汇 宜山路 徐家汇 肇嘉浜路 徐家汇 宜山路 徐家汇 肇嘉浜路 嘉善路 大木桥路 嘉善路 陕西南路 南京西路 汉中路 江宁路 长寿路 昌平路 静安寺 常熟路 肇嘉浜路 徐家汇 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 355
+trip status: 缺少OD
+
+trip id: 356
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 西藏北路 中兴路 曲阜路 人民广场 黄陂南路 陕西南路 上海图书馆 交通大学 虹桥路 
+
+trip id: 357
+trip status: OD相同
+
+trip id: 358
+trip status: OD相同
+
+trip id: 359
+trip status: 未出现与34有关信息
+
+trip id: 360
+trip status: 正常补全
+trip path: 赤峰路 虹口足球场 东宝兴路 宝山路 海伦路 
+
+trip id: 361
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 362
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 363
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 364
+trip status: OD相同
+
+trip id: 365
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 友谊路 
+
+trip id: 366
+trip status: OD相同
+
+trip id: 367
+trip status: 缺少OD
+
+trip id: 368
+trip status: 正常补全
+trip path: 金沙江路 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 369
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 嘉善路 世纪大道 浦东大道 世纪大道 
+
+trip id: 370
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 嘉善路 世纪大道 浦电路6 蓝村路 
+
+trip id: 371
+trip status: OD相同
+
+trip id: 372
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 373
+trip status: OD相同
+
+trip id: 374
+trip status: 正常补全
+trip path: 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 375
+trip status: 正常补全
+trip path: 金沙江路 曹杨路 镇坪路 长寿路 镇坪路 
+
+trip id: 376
+trip status: 缺少OD
+
+trip id: 377
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 378
+trip status: OD相同
+
+trip id: 379
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 380
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 381
+trip status: OD相同
+
+trip id: 382
+trip status: 正常补全
+trip path: 海伦路 宝山路 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 383
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 384
+trip status: OD相同
+
+trip id: 385
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 386
+trip status: 缺少OD
+
+trip id: 387
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 388
+trip status: 正常补全
+trip path: 上海火车站 宝山路 海伦路 临平路 大连路 镇坪路 
+
+trip id: 389
+trip status: 错误
+
+trip id: 390
+trip status: OD相同
+
+trip id: 391
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 392
+trip status: 正常补全
+trip path: 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 
+
+trip id: 393
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 394
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 395
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 396
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 397
+trip status: 正常补全
+trip path: 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 398
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 399
+trip status: OD相同
+
+trip id: 400
+trip status: OD相同
+
+trip id: 401
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 宝杨路 
+
+trip id: 402
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 
+
+trip id: 403
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 
+
+trip id: 404
+trip status: OD相同
+
+trip id: 405
+trip status: 正常补全
+trip path: 蓝村路 浦电路6 世纪大道 浦电路6 蓝村路 浦电路 
+
+trip id: 406
+trip status: OD相同
+
+trip id: 407
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 上海火车站 
+
+trip id: 408
+trip status: 缺少OD
+
+trip id: 409
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 410
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 411
+trip status: OD相同
+
+trip id: 412
+trip status: 数据完整
+trip path: 虹桥路 宜山路 
+
+trip id: 413
+trip status: 缺少OD
+
+trip id: 414
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 415
+trip status: 缺少OD
+
+trip id: 416
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 417
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 昌平路 长寿路 镇坪路 
+
+trip id: 418
+trip status: 缺少OD
+
+trip id: 419
+trip status: 正常补全
+trip path: 海伦路 四川北路 天潼路 南京东路 南京西路 静安寺 江苏路 交通大学 虹桥路 
+
+trip id: 420
+trip status: 正常补全
+trip path: 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 421
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 422
+trip status: OD相同
+
+trip id: 423
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 424
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 425
+trip status: OD相同
+
+trip id: 426
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 陕西南路 嘉善路 世纪大道 
+
+trip id: 427
+trip status: 缺少OD
+
+trip id: 428
+trip status: 未出现与34有关信息
+
+trip id: 429
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 430
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 431
+trip status: OD相同
+
+trip id: 432
+trip status: OD相同
+
+trip id: 433
+trip status: OD相同
+
+trip id: 434
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 435
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 436
+trip status: 缺少OD
+
+trip id: 437
+trip status: OD相同
+
+trip id: 438
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 隆德路 曹杨路 
+
+trip id: 439
+trip status: 缺少OD
+
+trip id: 440
+trip status: OD相同
+
+trip id: 441
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 442
+trip status: OD相同
+
+trip id: 443
+trip status: OD相同
+
+trip id: 444
+trip status: 正常补全
+trip path: 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 445
+trip status: 缺少OD
+
+trip id: 446
+trip status: 缺少OD
+
+trip id: 447
+trip status: 正常补全
+trip path: 宜山路 虹桥路 交通大学 江苏路 静安寺 南京西路 静安寺 江苏路 中山公园 延安西路 虹桥路 
+
+trip id: 448
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 449
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 450
+trip status: 缺少OD
+
+trip id: 451
+trip status: OD相同
+
+trip id: 452
+trip status: 正常补全
+trip path: 中山公园 娄山关路 威宁路 娄山关路 中山公园 江苏路 静安寺 南京西路 人民广场 南京东路 陆家嘴 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 娄山关路 威宁路 北新泾 淞虹路 北新泾 威宁路 娄山关路 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 453
+trip status: OD相同
+
+trip id: 454
+trip status: OD相同
+
+trip id: 455
+trip status: OD相同
+
+trip id: 456
+trip status: 未出现与34有关信息
+
+trip id: 457
+trip status: OD相同
+
+trip id: 458
+trip status: 正常补全
+trip path: 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 娄山关路 中山公园 金沙江路 曹杨路 
+
+trip id: 459
+trip status: 正常补全
+trip path: 塘桥 南浦大桥 西藏南路 陆家浜路 老西门 大世界 人民广场 新闸路 汉中路 上海火车站 
+
+trip id: 460
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 461
+trip status: 正常补全
+trip path: 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 
+
+trip id: 462
+trip status: OD相同
+
+trip id: 463
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 
+
+trip id: 464
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 465
+trip status: OD相同
+
+trip id: 466
+trip status: OD相同
+
+trip id: 467
+trip status: 正常补全
+trip path: 上海火车站 汉中路 自然博物馆 南浦大桥 塘桥 蓝村路 浦电路 
+
+trip id: 468
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 
+
+trip id: 469
+trip status: 缺少OD
+
+trip id: 470
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 西藏北路 中兴路 曲阜路 人民广场 黄陂南路 陕西南路 常熟路 衡山路 徐家汇 上海体育馆 
+
+trip id: 471
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 
+
+trip id: 472
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 东昌路 陆家嘴 南京东路 南京西路 人民广场 黄陂南路 陕西南路 常熟路 衡山路 徐家汇 上海体育馆 漕宝路 上海南站 
+
+trip id: 473
+trip status: OD相同
+
+trip id: 474
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 宋园路 伊犁路 宋园路 交通大学 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 475
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 徐家汇 衡山路 常熟路 陕西南路 南京西路 汉中路 上海火车站 宝山路 
+
+trip id: 476
+trip status: OD相同
+
+trip id: 477
+trip status: OD相同
+
+trip id: 478
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 徐家汇 肇嘉浜路 嘉善路 世纪大道 浦电路 
+
+trip id: 479
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 长寿路 江宁路 汉中路 曲阜路 中兴路 曲阜路 人民广场 大世界 老西门 陆家浜路 西藏南路 南浦大桥 
+
+trip id: 480
+trip status: 正常补全
+trip path: 杨树浦路 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 481
+trip status: OD相同
+
+trip id: 482
+trip status: 未出现与34有关信息
+
+trip id: 483
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 
+
+trip id: 484
+trip status: 缺少OD
+
+trip id: 485
+trip status: 未出现与34有关信息
+
+trip id: 486
+trip status: 正常补全
+trip path: 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 中潭路 镇坪路 
+
+trip id: 487
+trip status: 数据完整
+trip path: 上海火车站 宝山路 海伦路 宝山路 
+
+trip id: 488
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 489
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 肇嘉浜路 东安路 上海体育场 上海体育馆 
+
+trip id: 490
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 
+
+trip id: 491
+trip status: 正常补全
+trip path: 镇坪路 长寿路 昌平路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 492
+trip status: OD相同
+
+trip id: 493
+trip status: 正常补全
+trip path: 上海火车站 宝山路 海伦路 
+
+trip id: 494
+trip status: OD相同
+
+trip id: 495
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 496
+trip status: 未出现与34有关信息
+
+trip id: 497
+trip status: 正常补全
+trip path: 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 498
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 499
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 
+
+trip id: 500
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 
+
+trip id: 501
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 海伦路 临平路 大连路 
+
+trip id: 502
+trip status: 正常补全
+trip path: 海伦路 临平路 大连路 杨树浦路 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 503
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 商城路 世纪大道 
+
+trip id: 504
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 505
+trip status: 缺少OD
+
+trip id: 506
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 507
+trip status: OD相同
+
+trip id: 508
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 509
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 510
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 511
+trip status: OD相同
+
+trip id: 512
+trip status: 数据完整
+trip path: 延安西路 虹桥路 
+
+trip id: 513
+trip status: 数据完整
+trip path: 金沙江路 中山公园 
+
+trip id: 514
+trip status: 正常补全
+trip path: 蓝村路 浦电路6 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 昌平路 长寿路 镇坪路 
+
+trip id: 515
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路  
+
+trip id: 516
+trip status: 错误
+
+trip id: 517
+trip status: 错误
+
+trip id: 518
+trip status: 未出现与34有关信息
+
+trip id: 519
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 520
+trip status: 正常补全
+trip path: 上海南站 漕宝路 龙漕路 漕溪路 宜山路 虹桥路 延安西路 
+
+trip id: 521
+trip status: OD相同
+
+trip id: 522
+trip status: 错误
+
+trip id: 523
+trip status: 缺少OD
+
+trip id: 524
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 525
+trip status: OD相同
+
+trip id: 526
+trip status: OD相同
+
+trip id: 527
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 528
+trip status: 未出现与34有关信息
+
+trip id: 529
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 530
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 
+
+trip id: 531
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 海伦路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 
+
+trip id: 532
+trip status: 缺少OD
+
+trip id: 533
+trip status: 正常补全
+trip path: 世纪大道 商城路 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 
+
+trip id: 534
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 535
+trip status: OD相同
+
+trip id: 536
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 黄陂南路 人民广场 曲阜路 中兴路 西藏北路 虹口足球场 赤峰路 
+
+trip id: 537
+trip status: OD相同
+
+trip id: 538
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 539
+trip status: OD相同
+
+trip id: 540
+trip status: 缺少OD
+
+trip id: 541
+trip status: 未出现与34有关信息
+
+trip id: 542
+trip status: 缺少OD
+
+trip id: 543
+trip status: 正常补全
+trip path: 南浦大桥 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 西藏南路 
+
+trip id: 544
+trip status: 错误
+
+trip id: 545
+trip status: 缺少OD
+
+trip id: 546
+trip status: 错误
+
+trip id: 547
+trip status: 缺少OD
+
+trip id: 548
+trip status: 缺少OD
+
+trip id: 549
+trip status: 正常补全
+trip path: 浦电路 蓝村路 塘桥 南浦大桥 塘桥 蓝村路 
+
+trip id: 550
+trip status: OD相同
+
+trip id: 551
+trip status: OD相同
+
+trip id: 552
+trip status: OD相同
+
+trip id: 553
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 554
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 娄山关路 威宁路 北新泾 淞虹路 虹桥2号航站楼 虹桥1号航站楼 虹桥2号航站楼 虹桥1号航站楼 上海动物园 龙溪路 水城路 伊犁路 宋园路 交通大学 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 555
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 556
+trip status: 缺少OD
+
+trip id: 557
+trip status: 数据完整
+trip path: 上海火车站 宝山路 
+
+trip id: 558
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 559
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 560
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 
+
+trip id: 561
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 562
+trip status: OD相同
+
+trip id: 563
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 564
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 565
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 566
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 567
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 568
+trip status: OD相同
+
+trip id: 569
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 570
+trip status: 正常补全
+trip path: 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 海伦路 
+
+trip id: 571
+trip status: 正常补全
+trip path: 浦电路 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 
+
+trip id: 572
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 573
+trip status: 错误
+
+trip id: 574
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 575
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 576
+trip status: OD相同
+
+trip id: 577
+trip status: 缺少OD
+
+trip id: 578
+trip status: 数据完整
+trip path: 上海火车站 宝山路 上海火车站 宝山路 海伦路 
+
+trip id: 579
+trip status: OD相同
+
+trip id: 580
+trip status: 数据完整
+trip path: 金沙江路 中山公园 
+
+trip id: 581
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 582
+trip status: OD相同
+
+trip id: 583
+trip status: OD相同
+
+trip id: 584
+trip status: OD相同
+
+trip id: 585
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 
+
+trip id: 586
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 
+
+trip id: 587
+trip status: OD相同
+
+trip id: 588
+trip status: OD相同
+
+trip id: 589
+trip status: 缺少OD
+
+trip id: 590
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 591
+trip status: OD相同
+
+trip id: 592
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 593
+trip status: OD相同
+
+trip id: 594
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 595
+trip status: 正常补全
+trip path: 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 596
+trip status: 未出现与34有关信息
+
+trip id: 597
+trip status: OD相同
+
+trip id: 598
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 
+
+trip id: 599
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 600
+trip status: 缺少OD
+
+trip id: 601
+trip status: 正常补全
+trip path: 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 娄山关路 中山公园 江苏路 静安寺 常熟路 肇嘉浜路 东安路 
+
+trip id: 602
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 603
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 604
+trip status: OD相同
+
+trip id: 605
+trip status: OD相同
+
+trip id: 606
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 
+
+trip id: 607
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 608
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 
+
+trip id: 609
+trip status: OD相同
+
+trip id: 610
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 611
+trip status: 正常补全
+trip path: 虹桥路 宋园路 伊犁路 水城路 龙溪路 上海动物园 虹桥1号航站楼 虹桥2号航站楼 虹桥1号航站楼 上海动物园 龙溪路 水城路 伊犁路 宋园路 交通大学 上海图书馆 陕西南路 黄陂南路 人民广场 南京西路 静安寺 江苏路 中山公园 金沙江路 
+
+trip id: 612
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 613
+trip status: 正常补全
+trip path: 上海体育场 上海体育馆 宜山路 徐家汇 肇嘉浜路 嘉善路 世纪大道 浦东大道 杨树浦路 大连路 
+
+trip id: 614
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 615
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 616
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 617
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 618
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 619
+trip status: 正常补全
+trip path: 蓝村路 塘桥 南浦大桥 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 徐家汇 衡山路 常熟路 静安寺 昌平路 长寿路 镇坪路 
+
+trip id: 620
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 621
+trip status: 数据完整
+trip path: 延安西路 虹桥路 延安西路 中山公园 
+
+trip id: 622
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 
+
+trip id: 623
+trip status: 缺少OD
+
+trip id: 624
+trip status: OD相同
+
+trip id: 625
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 626
+trip status: 正常补全
+trip path: 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 627
+trip status: OD相同
+
+trip id: 628
+trip status: 正常补全
+trip path: 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 629
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 630
+trip status: 正常补全
+trip path: 虹口足球场 曲阳路 四平路 鞍山新村 江浦路 黄兴路 延吉中路 黄兴公园 翔殷路 嫩江路 翔殷路 黄兴公园 延吉中路 黄兴路 江浦路 鞍山新村 四平路 邮电新村 海伦路 四川北路 天潼路 南京东路 南京西路 静安寺 江苏路 交通大学 虹桥路 宋园路 伊犁路 水城路 龙溪路 上海动物园 龙溪路 水城路 伊犁路 宋园路 交通大学 上海图书馆 陕西南路 南京西路 汉中路 上海火车站 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 631
+trip status: OD相同
+
+trip id: 632
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 
+
+trip id: 633
+trip status: 数据完整
+trip path: 曹杨路 金沙江路 
+
+trip id: 634
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 上海火车站 
+
+trip id: 635
+trip status: OD相同
+
+trip id: 636
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 637
+trip status: OD相同
+
+trip id: 638
+trip status: 错误
+
+trip id: 639
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 
+
+trip id: 640
+trip status: 正常补全
+trip path: 宜山路 徐家汇 肇嘉浜路 嘉善路 世纪大道 浦电路6 世纪大道 
+
+trip id: 641
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 642
+trip status: 正常补全
+trip path: 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 643
+trip status: 正常补全
+trip path: 蓝村路 塘桥 南浦大桥 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 虹桥路 宜山路 
+
+trip id: 644
+trip status: 错误
+
+trip id: 645
+trip status: OD相同
+
+trip id: 646
+trip status: 未出现与34有关信息
+
+trip id: 647
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 陕西南路 嘉善路 大木桥路 龙华中路 龙华 龙漕路 石龙路 上海南站 
+
+trip id: 648
+trip status: 缺少OD
+
+trip id: 649
+trip status: 缺少OD
+
+trip id: 650
+trip status: 正常补全
+trip path: 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 651
+trip status: OD相同
+
+trip id: 652
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 
+
+trip id: 653
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 徐家汇 衡山路 常熟路 陕西南路 南京西路 汉中路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 654
+trip status: OD相同
+
+trip id: 655
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 656
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 657
+trip status: 未出现与34有关信息
+
+trip id: 658
+trip status: 缺少OD
+
+trip id: 659
+trip status: OD相同
+
+trip id: 660
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 661
+trip status: 正常补全
+trip path: 延安西路 中山公园 延安西路 虹桥路 宜山路 漕溪路 宜山路 
+
+trip id: 662
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 663
+trip status: 正常补全
+trip path: 蓝村路 塘桥 南浦大桥 西藏南路 鲁班路 大木桥路 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 宝山路 
+
+trip id: 664
+trip status: 错误
+
+trip id: 665
+trip status: OD相同
+
+trip id: 666
+trip status: 正常补全
+trip path: 塘桥 蓝村路 浦电路6 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 667
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 668
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 大渡河路 真北路 祁连山南路 丰庄 金沙江西路 金运路 金沙江西路 丰庄 祁连山南路 真北路 大渡河路 金沙江路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 上海体育场 
+
+trip id: 669
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 
+
+trip id: 670
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 671
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 672
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 静安寺 江苏路 交通大学 虹桥路 
+
+trip id: 673
+trip status: 正常补全
+trip path: 宝山路 海伦路 临平路 大连路 
+
+trip id: 674
+trip status: 未出现与34有关信息
+
+trip id: 675
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 676
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 677
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 东宝兴路 虹口足球场 东宝兴路 宝山路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 
+
+trip id: 678
+trip status: 未出现与34有关信息
+
+trip id: 679
+trip status: 缺少OD
+
+trip id: 680
+trip status: OD相同
+
+trip id: 681
+trip status: 正常补全
+trip path: 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 682
+trip status: 缺少OD
+
+trip id: 683
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 南京西路 汉中路 上海火车站 
+
+trip id: 684
+trip status: 缺少OD
+
+trip id: 685
+trip status: OD相同
+
+trip id: 686
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 687
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 
+
+trip id: 688
+trip status: OD相同
+
+trip id: 689
+trip status: OD相同
+
+trip id: 690
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 西藏北路 中兴路 曲阜路 人民广场 黄陂南路 陕西南路 嘉善路 大木桥路 龙华中路 东安路 大木桥路 鲁班路 西藏南路 
+
+trip id: 691
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 
+
+trip id: 692
+trip status: 正常补全
+trip path: 浦东大道 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 金沙江路 
+
+trip id: 693
+trip status: 数据完整
+trip path: 上海体育馆 宜山路 虹桥路 宜山路 
+
+trip id: 694
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 695
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 696
+trip status: OD相同
+
+trip id: 697
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 698
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 699
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 700
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 701
+trip status: OD相同
+
+trip id: 702
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 703
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 704
+trip status: 正常补全
+trip path: 镇坪路 长寿路 昌平路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 705
+trip status: 数据完整
+trip path: 浦东大道 世纪大道 
+
+trip id: 706
+trip status: 正常补全
+trip path: 海伦路 临平路 大连路 杨树浦路 浦东大道 
+
+trip id: 707
+trip status: OD相同
+
+trip id: 708
+trip status: OD相同
+
+trip id: 709
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 710
+trip status: 正常补全
+trip path: 上海火车站 中山北路 延长路 上海马戏城 延长路 中山北路 上海火车站 宝山路 东宝兴路 
+
+trip id: 711
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 712
+trip status: 错误
+
+trip id: 713
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 714
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 
+
+trip id: 715
+trip status: 正常补全
+trip path: 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 716
+trip status: OD相同
+
+trip id: 717
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 718
+trip status: OD相同
+
+trip id: 719
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 720
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 721
+trip status: 正常补全
+trip path: 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 722
+trip status: 数据完整
+trip path: 赤峰路 虹口足球场 
+
+trip id: 723
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 上海火车站 
+
+trip id: 724
+trip status: 数据完整
+trip path: 宝山路 海伦路 宝山路 海伦路 临平路 
+
+trip id: 725
+trip status: 缺少OD
+
+trip id: 726
+trip status: 正常补全
+trip path: 江杨北路 铁力路 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 海伦路 临平路 大连路 镇坪路 
+
+trip id: 727
+trip status: 数据完整
+trip path: 曹杨路 金沙江路 曹杨路 
+
+trip id: 728
+trip status: 缺少OD
+
+trip id: 729
+trip status: OD相同
+
+trip id: 730
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 731
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 上海体育场 东安路 
+
+trip id: 732
+trip status: 缺少OD
+
+trip id: 733
+trip status: 缺少OD
+
+trip id: 734
+trip status: OD相同
+
+trip id: 735
+trip status: OD相同
+
+trip id: 736
+trip status: OD相同
+
+trip id: 737
+trip status: OD相同
+
+trip id: 738
+trip status: 正常补全
+trip path: 虹桥路 交通大学 上海图书馆 陕西南路 黄陂南路 人民广场 曲阜路 中兴路 西藏北路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 
+
+trip id: 739
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 
+
+trip id: 740
+trip status: 未出现与34有关信息
+
+trip id: 741
+trip status: 数据完整
+trip path: 宝山路 海伦路 临平路 大连路 杨树浦路 浦东大道 世纪大道 
+
+trip id: 742
+trip status: 正常补全
+trip path: 虹桥路 交通大学 虹桥路 宜山路 
+
+trip id: 743
+trip status: 正常补全
+trip path: 海伦路 宝山路 
+
+trip id: 744
+trip status: OD相同
+
+trip id: 745
+trip status: 正常补全
+trip path: 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 746
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 747
+trip status: 未出现与34有关信息
+
+trip id: 748
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 749
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 750
+trip status: 缺少OD
+
+trip id: 751
+trip status: 错误
+
+trip id: 752
+trip status: OD相同
+
+trip id: 753
+trip status: 正常补全
+trip path: 镇坪路 长寿路 昌平路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 754
+trip status: OD相同
+
+trip id: 755
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 
+
+trip id: 756
+trip status: OD相同
+
+trip id: 757
+trip status: 正常补全
+trip path: 东宝兴路 宝山路 上海火车站 
+
+trip id: 758
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 759
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 静安寺 江苏路 中山公园 金沙江路 
+
+trip id: 760
+trip status: 正常补全
+trip path: 上海火车站 汉中路 南京西路 静安寺 常熟路 衡山路 徐家汇 交通大学 江苏路 中山公园 
+
+trip id: 761
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 交通大学 上海图书馆 陕西南路 南京西路 汉中路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 762
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 763
+trip status: OD相同
+
+trip id: 764
+trip status: OD相同
+
+trip id: 765
+trip status: 正常补全
+trip path: 大连路 临平路 海伦路 宝山路 
+
+trip id: 766
+trip status: OD相同
+
+trip id: 767
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 曹杨路 
+
+trip id: 768
+trip status: 错误
+
+trip id: 769
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 770
+trip status: 缺少OD
+
+trip id: 771
+trip status: OD相同
+
+trip id: 772
+trip status: OD相同
+
+trip id: 773
+trip status: OD相同
+
+trip id: 774
+trip status: 缺少OD
+
+trip id: 775
+trip status: 正常补全
+trip path: 上海体育馆 徐家汇 交通大学 江苏路 隆德路 曹杨路 
+
+trip id: 776
+trip status: 正常补全
+trip path: 杨树浦路 浦东大道 世纪大道 
+
+trip id: 777
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 友谊路 
+
+trip id: 778
+trip status: 数据完整
+trip path: 虹桥路 延安西路 
+
+trip id: 779
+trip status: OD相同
+
+trip id: 780
+trip status: OD相同
+
+trip id: 781
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 782
+trip status: 正常补全
+trip path: 上海南站 漕宝路 上海体育馆 宜山路 虹桥路 
+
+trip id: 783
+trip status: 正常补全
+trip path: 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 784
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 西藏北路 中兴路 曲阜路 人民广场 黄陂南路 陕西南路 常熟路 衡山路 徐家汇 宜山路 
+
+trip id: 785
+trip status: 数据完整
+trip path: 宜山路 上海体育馆 上海体育场 东安路 上海体育场 上海体育馆 宜山路 虹桥路 延安西路 中山公园 延安西路 
+
+trip id: 786
+trip status: 错误
+
+trip id: 787
+trip status: OD相同
+
+trip id: 788
+trip status: OD相同
+
+trip id: 789
+trip status: OD相同
+
+trip id: 790
+trip status: OD相同
+
+trip id: 791
+trip status: 缺少OD
+
+trip id: 792
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 
+
+trip id: 793
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 794
+trip status: 缺少OD
+
+trip id: 795
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 
+
+trip id: 796
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 上海体育场 
+
+trip id: 797
+trip status: OD相同
+
+trip id: 798
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 799
+trip status: 正常补全
+trip path: 上海火车站 汉中路 自然博物馆 南浦大桥 
+
+trip id: 800
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 801
+trip status: 缺少OD
+
+trip id: 802
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 803
+trip status: 未出现与34有关信息
+
+trip id: 804
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 
+
+trip id: 805
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 宝山路 东宝兴路 虹口足球场 
+
+trip id: 806
+trip status: OD相同
+
+trip id: 807
+trip status: 缺少OD
+
+trip id: 808
+trip status: 错误
+
+trip id: 809
+trip status: 正常补全
+trip path: 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 810
+trip status: 正常补全
+trip path: 金沙江路 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 
+
+trip id: 811
+trip status: 正常补全
+trip path: 江杨北路 铁力路 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 812
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 813
+trip status: 正常补全
+trip path: 蓝村路 浦电路6 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 上海火车站 
+
+trip id: 814
+trip status: OD相同
+
+trip id: 815
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 816
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 
+
+trip id: 817
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 宋园路 伊犁路 宋园路 交通大学 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 818
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 819
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 820
+trip status: 未出现与34有关信息
+
+trip id: 821
+trip status: 缺少OD
+
+trip id: 822
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 823
+trip status: 缺少OD
+
+trip id: 824
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 825
+trip status: 正常补全
+trip path: 延安西路 虹桥路 交通大学 上海图书馆 陕西南路 嘉善路 世纪大道 
+
+trip id: 826
+trip status: 正常补全
+trip path: 上海火车站 中潭路 镇坪路 曹杨路 金沙江路 
+
+trip id: 827
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 
+
+trip id: 828
+trip status: 缺少OD
+
+trip id: 829
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 常熟路 陕西南路 嘉善路 世纪大道 浦东大道 杨树浦路 
+
+trip id: 830
+trip status: OD相同
+
+trip id: 831
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 832
+trip status: OD相同
+
+trip id: 833
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 金沙江路 曹杨路 镇坪路 曹杨路 金沙江路 中山公园 
+
+trip id: 834
+trip status: 未出现与34有关信息
+
+trip id: 835
+trip status: OD相同
+
+trip id: 836
+trip status: OD相同
+
+trip id: 837
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 延安西路 中山公园 金沙江路 
+
+trip id: 838
+trip status: OD相同
+
+trip id: 839
+trip status: 数据完整
+trip path: 虹桥路 宜山路 
+
+trip id: 840
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 841
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 842
+trip status: 正常补全
+trip path: 上海体育馆 宜山路 虹桥路 
+
+trip id: 843
+trip status: 未出现与34有关信息
+
+trip id: 844
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 845
+trip status: OD相同
+
+trip id: 846
+trip status: 正常补全
+trip path: 世纪大道 浦东大道 杨树浦路 大连路 临平路 海伦路 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 
+
+trip id: 847
+trip status: OD相同
+
+trip id: 848
+trip status: 缺少OD
+
+trip id: 849
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 850
+trip status: 数据完整
+trip path: 中山公园 金沙江路 
+
+trip id: 851
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 上海体育馆 
+
+trip id: 852
+trip status: OD相同
+
+trip id: 853
+trip status: OD相同
+
+trip id: 854
+trip status: 正常补全
+trip path: 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 宝杨路 水产路 淞滨路 张华浜 淞发路 长江南路 殷高西路 江湾镇 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 855
+trip status: 错误
+
+trip id: 856
+trip status: 正常补全
+trip path: 中山公园 江苏路 静安寺 南京西路 人民广场 黄陂南路 陕西南路 嘉善路 世纪大道 
+
+trip id: 857
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 
+
+trip id: 858
+trip status: 正常补全
+trip path: 上海火车站 宝山路 
+
+trip id: 859
+trip status: 正常补全
+trip path: 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 大连路 
+
+trip id: 860
+trip status: OD相同
+
+trip id: 861
+trip status: 正常补全
+trip path: 镇坪路 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 862
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 江湾镇 殷高西路 长江南路 淞发路 张华浜 淞滨路 水产路 宝杨路 友谊路 铁力路 江杨北路 
+
+trip id: 863
+trip status: 正常补全
+trip path: 世纪大道 东昌路 陆家嘴 南京东路 南京西路 汉中路 上海火车站 
+
+trip id: 864
+trip status: 正常补全
+trip path: 曹杨路 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 865
+trip status: 缺少OD
+
+trip id: 866
+trip status: 正常补全
+trip path: 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 867
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 
+
+trip id: 868
+trip status: 正常补全
+trip path: 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 869
+trip status: OD相同
+
+trip id: 870
+trip status: 正常补全
+trip path: 金沙江路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 871
+trip status: OD相同
+
+trip id: 872
+trip status: 正常补全
+trip path: 上海火车站 宝山路 海伦路 
+
+trip id: 873
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 海伦路 临平路 
+
+trip id: 874
+trip status: OD相同
+
+trip id: 875
+trip status: 正常补全
+trip path: 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 876
+trip status: OD相同
+
+trip id: 877
+trip status: 正常补全
+trip path: 虹桥路 宜山路 上海体育馆 上海体育场 东安路 大木桥路 
+
+trip id: 878
+trip status: 正常补全
+trip path: 虹桥路 延安西路 中山公园 娄山关路 中山公园 延安西路 虹桥路 宜山路 
+
+trip id: 879
+trip status: 正常补全
+trip path: 延安西路 中山公园 金沙江路 曹杨路 镇坪路 中潭路 上海火车站 宝山路 东宝兴路 虹口足球场 赤峰路 大柏树 
+
+trip id: 880
+trip status: 正常补全
+trip path: 龙漕路 漕溪路 宜山路 虹桥路 延安西路 中山公园 
+
+trip id: 881
+trip status: OD相同
+
+trip id: 882
+trip status: 正常补全
+trip path: 虹桥路 宜山路 漕溪路 龙漕路 石龙路 上海南站 
+
+trip id: 883
+trip status: OD相同
+
+trip id: 884
+trip status: OD相同
+
+trip id: 885
+trip status: OD相同
+
+trip id: 886
+trip status: OD相同
+
+trip id: 887
+trip status: OD相同
+
+trip id: 888
+trip status: OD相同
+
+trip id: 889
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 汉中路 自然博物馆 南浦大桥 塘桥 
+
+trip id: 890
+trip status: 正常补全
+trip path: 镇坪路 中潭路 上海火车站 宝山路 海伦路 
+
+trip id: 891
+trip status: OD相同
+
+trip id: 892
+trip status: 正常补全
+trip path: 虹桥路 宜山路 徐家汇 肇嘉浜路 嘉善路 世纪大道 杨高中路 世纪大道 
+
+trip id: 893
+trip status: OD相同
+
+trip id: 894
+trip status: 正常补全
+trip path: 海伦路 宝山路 上海火车站 中潭路 镇坪路 
+
+trip id: 895
+trip status: OD相同
+
+trip id: 896
+trip status: OD相同
+
+trip id: 897
+trip status: 正常补全
+trip path: 大柏树 赤峰路 虹口足球场 东宝兴路 宝山路 上海火车站 
+
+trip id: 898
+trip status: OD相同
+
+trip id: 899
+trip status: 缺少OD
+
+trip id: 900
+trip status: 缺少OD
+

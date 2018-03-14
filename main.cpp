@@ -6,7 +6,7 @@ int trip_id;
 
 via_data via[VIA_MAX];
 //path_stor pa[PATHS_MAX];
-station_data sta[STATION_NUM+1];
+station_data sta[STATION_NUM];
 
 int path[STATION_NUM][STATION_NUM];//v到各顶点的最短路径向量
 int D[STATION_NUM][STATION_NUM];//v到各顶点最短路径长度向量
@@ -69,7 +69,7 @@ int main() {
 	subway_data_in.open(subway_data, ios::in);
 	if(!subway_data_in.is_open())
 		return -1;
-	for(int i = 1; i <= STATION_NUM; i++)
+	for(int i = 1; i < STATION_NUM; i++)
 		sta[i].read_subway_data(i);
 	subway_data_in.close();
 	for(int i = 0; i < STATION_NUM; i++)
@@ -95,9 +95,10 @@ int main() {
 	if(DEBUGFINDTRANS)
 		test_find_trans(DEBUGFINDTRANS);
 	else
-		scan(TRIP_MAX);
+		scan_n(TRIP_MAX);
+	interaction();
 
-    return 0;
+	return 0;
 }
 
 
