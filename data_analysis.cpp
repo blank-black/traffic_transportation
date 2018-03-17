@@ -378,7 +378,7 @@ void scan(int cut)
 				trip_adjust(num_t,num_via,tail,head_num,tail_num);
 			if(DELERROR&&status_trip[num_t]!=4&&del_error_trip(num_t,num_via))
 				continue;
-			if(right_trip(num_t,num_via)&&status_trip[num_t]!=4)
+			if(complete_trip(num_t,num_via)&&status_trip[num_t]!=4)
 				status_trip[num_t]=STATUS_FULL;
 		}
 		else
@@ -487,7 +487,7 @@ void scan(int cut)
 				trip_adjust(num_t,num_via,tail,head_num,tail_num);
 			if(DELERROR&&status_trip[num_t]!=4&&del_error_trip(num_t,num_via))
 				continue;
-			if(right_trip(num_t,num_via)&&status_trip[num_t]!=4)
+			if(complete_trip(num_t,num_via)&&status_trip[num_t]!=4)
 				status_trip[num_t]=STATUS_FULL;
 		}
 	}//end of for
@@ -527,8 +527,11 @@ void scan_n(int cut)
 			else
 				i++;
 		}
-		status_trip[num_t]=STATUS_COMPLETE;
-		cout<<num_t<<endl;
+		if(!complete_trip(num_t,num_via))
+			status_trip[num_t]=STATUS_FULL;
+		else
+			status_trip[num_t]=STATUS_COMPLETE;
+//		cout<<num_t<<endl;
 	}
 	if (DEBUGSCAN)
 		test_print_scan(DEBUGSCAN);
@@ -724,7 +727,7 @@ int del_error_trip(int trip, int start_num)
 	return 0;
 }
 
-int right_trip(int trip, int start_num)
+int complete_trip(int trip, int start_num)
 {
 	for(int j=0;j<VIA_TRIP_MAX&&trip_path[trip][j]!=-1;j++)
 	{

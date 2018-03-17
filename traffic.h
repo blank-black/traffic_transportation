@@ -71,7 +71,7 @@ public:
 	friend int fun_find_trans(int trip, int s34, int sn34, int t34, int tn34);//找换乘
 	friend int test_find_trans(int num);
 	friend int del_error_trip(int trip, int start_num);
-	friend int right_trip(int trip, int start_num);
+	friend int complete_trip(int trip, int start_num);
 	bool if_trans(int station);
 	friend int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num);
 	friend void scan_n(int cut);
@@ -106,7 +106,7 @@ public:
 	friend int fun_find_trans(int trip, int s34, int sn34, int t34, int tn34);//找换乘
 	friend int test_find_trans(int num);
 	friend int del_error_trip(int trip, int start_num);
-	friend int right_trip(int trip, int start_num);
+	friend int complete_trip(int trip, int start_num);
 	friend int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num);
 	friend void scan_n(int cut);
 
@@ -179,7 +179,7 @@ void init_array();
 int test_find_trans(int num);
 bool if_trans(int station);
 int del_error_trip(int trip, int start_num);
-int right_trip(int trip, int start_num);
+int complete_trip(int trip, int start_num);
 int if_in_path(int trip, int sta_via, int j);
 int trip_adjust(int trip ,int start_num ,int tail ,int head_num ,int tail_num);
 void clear_path(int trip ,int j);
